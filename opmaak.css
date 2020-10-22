@@ -1,0 +1,80 @@
+header {
+    background-color:#333;
+    display:block;
+    color:white;
+}
+
+body {
+    background-color: rgb(198, 207, 236);
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -22px;
+}
+nav a {
+    float:left;
+    padding:10px 25px 30px 20px;
+    background: blue;
+    display:block;
+}
+
+section {
+    right: 250px;
+    display: inline;
+    position: absolute;
+    top: 120px;
+    font-size: 30px;
+
+}
+
+#mezelf_ecover{
+    color: black;
+    margin-right: 700px;
+    /* text-align: justify;*/
+    float: left;
+    clear: right;
+    position: absolute;
+    
+
+}
+#ecover{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: left;
+    text-align: left;
+    font-size: 40px;
+}
+
+.immalle{
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.bg-img {
+    background-image: url("ecover.jpg");
+    min-height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+  
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: white;
+    color:black;
+}
