@@ -1,11 +1,11 @@
 header {
-    background-color:#333;
+    background-color:white;
     display:block;
     color:white;
 }
 
 body {
-    background-color: rgb(198, 207, 236);
+    background-color: white;
     width: 1400px;
     margin-left: auto;
     margin-right: auto;
@@ -16,10 +16,51 @@ nav a {
     padding:10px 25px 30px 20px;
     background: blue;
     display:block;
+    
 }
 
-th{
+#email{
+    width: 40px;
+    min-height: 10x;
+    float: left;
+    margin-left: 10px;
+}
+
+#plaatsaanduiding{
+    width: 40px;
+    min-height: 10x;
+    float: left;
+    margin-left: 10px;
+}
+
+#website{
+    width: 40px;
+    min-height: 10x;
+    float: left;
+    margin-left: 10px;
+}
+article {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 90%;
+    color: white;
+    background-color: rgb(22, 22, 141);
+    border-radius: 10px;
+    text-align: left;
+    white-space: normal;
+    
+}
+#notremission{
+    text-align: left;
+    margin-left: 20px;
+}
+#th{
     text-align:center;
+    text-align: left;
+    margin-left: 20px;
 }
 
 .middlerow{
@@ -32,6 +73,11 @@ th{
   
     padding: 10px;
     margin-top: 4px;
+}
+
+#contactfrans{
+    text-align: left;
+    margin-left: 20px;
 }
 
 section {
@@ -77,6 +123,15 @@ section {
 .space{
     height:200px;
 }
+.space2{
+    height:70px
+}  
+.space3{
+    height:35px;
+} 
+.space4{
+    height: 10px;
+}
 
 .bg-img {
     background-image: url("ecover.jpg");
@@ -89,17 +144,23 @@ section {
 
 #tabel{
     width: 90%;
-    color: white;
+    color: black;
     margin: auto;
     text-align:justify;
     font-weight: bold;
     font-size: 18px;
     
 }
-  
+.afpro
+{
+    margin-top: 2px;
+    margin-right: 4px;
+    width: 20px;
+
+}
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(22, 22, 141);
 }
 
 .topnav a {
@@ -120,9 +181,6 @@ section {
     background-color: red;
     color:green;
 }
-
-
-
 
 
 
