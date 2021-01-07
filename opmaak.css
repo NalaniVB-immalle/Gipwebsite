@@ -1,22 +1,50 @@
 header {
     background-color:white;
-    display:block;
     color:white;
 }
 
 body {
-    background-color: white;
+    background-color:white;
     width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0px;
+    font-size:18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav a {
     float:left;
     padding:10px 25px 30px 20px;
-    background: blue;
-    display:block;
+    background: blue; 
+}
+
+#bier
+{
+    color: black;
+    margin-right: 500px;
+    margin-top: 20px;
+    clear: right;
+    position: absolute;
+    margin-left: 500px;
+}
+#biertje{
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.informatie{
+    margin-right: 1px;
+    margin-top: 100px;
+    margin-bottom:100px;
+}
+
+.missie{
+    margin-right: 500px;
+    float:left;
     
+    
+}
+.hunmissie{
+    float:right;
 }
 
 #email{
@@ -42,15 +70,16 @@ nav a {
 article {
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    
     padding: 10px;
     width: 90%;
-    color: white;
-    background-color: rgb(22, 22, 141);
+    color: black;
+    background-color: rgb(236, 237, 243);
+    
     border-radius: 10px;
     text-align: left;
-    white-space: normal;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 #notremission{
@@ -79,9 +108,12 @@ article {
     text-align: left;
     margin-left: 20px;
 }
+#tabelfrans{
+    font-weight: 500px;
+}
 
 section {
-    right: 350px;
+    right: 630px;
     display: inline;
     position: absolute;
     top: 200px;
@@ -92,34 +124,32 @@ section {
     color: black;
     margin-right: 700px;
     /*text-align: justify;*/
-    float: left;
     clear: right;
     position: absolute;
     margin-left: 15px;  
 }
-
-#logo{
-    width: 110px;
-    min-height: 100x;
-    float: right;
-    margin-right: 30px;
+#index
+{
+    width:1400px;
 }
 
-#ecover{
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+
+#logo{
     position: left;
     text-align: left;
-    font-size: 40px;
+    font-size: 30px;
+    width: 1000px;
 }
 
 .immalle{
     float: right;
-    margin-top: 20px;
     margin-right: 50px;
 }
-
+#logo
+{
+    width: 100px;
+    float: right;
+}
 .space{
     height:200px;
 }
@@ -133,11 +163,32 @@ section {
     height: 10px;
 }
 
+#namen
+{
+    margin-top: 50px;
+    color: black;
+}
+.afpro
+{
+    margin-top: 50px;
+    color: black;
+}
+#huishouden
+{
+    margin-left: 100px;
+}
+
+#wasmiddel
+{
+    margin-left: 100px;
+}
+#persoonlijkeverzorging
+{
+    margin-left: 100px;
+}
 .bg-img {
     background-image: url("ecover.jpg");
-    min-height: 550px;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -149,6 +200,8 @@ section {
     text-align:justify;
     font-weight: bold;
     font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 90px;
     
 }
 .afpro
