@@ -108,8 +108,9 @@ article {
     text-align: left;
     margin-left: 20px;
 }
-#tabelfrans{
+.tabelfrans{
     font-weight: 500px;
+    
 }
 
 section {
